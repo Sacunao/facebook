@@ -5,21 +5,32 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>Facebook</title>
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" type="img/png" href="img/facebook.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
 <body>
 	 <nav>
 	    <div class="nav-wrapper light-blue darken-4">
 	      <a href="#" class="brand-logo">Facebook</a>
 	      <ul id="nav-mobile" class="right hide-on-med-and-down">
-	        <li><a href="sass.html">Sheila</a></li>
+	      	<img class="foto left" src="img/foto.jpg" alt="foto">
+	      	<li><a href="sass.html">Sheila</a></li>
 	        <li><a href="badges.html">Inicio</a></li>
+	        <li><i class="icons tiny material-icons">person_pin</i></li>
+	      	<li><i class="icons tiny material-icons">forum</i></li>
+	      	<li><i class="icons tiny material-icons">language</i></li>
+	      	<li><i class="icons tiny material-icons">lock</i></li>
 	      </ul>
 	    </div>
 	  </nav>
 	  <section class="container-fluid">
 	  	<div class="row">
-	      <div class="col s3 card horizontal">Sheila Acuña</div>
+	      <div class="col s3 card horizontal">
+	      	<div class="col s12">
+	      		<img class="fotodos left" src="img/foto.jpg" alt="fotoleft">
+	      		<p class="left">Sheila Acuña</p>
+	      	</div>
+	      </div>
 	      <div class="col s6">	      	
 		    <div class="card horizontal">
 		      <div class="card-image">
@@ -32,9 +43,17 @@
 					</form>
 		        </div>
 		        <div class="card-action">
-		            <button class="btn waves-effect waves-light light-blue darken-4 right" id="boton" type="submit" disabled="true" name="action">Publicar
-					    <i class="material-icons right"></i>
+			        <button class="btn waves-effect waves-light light-blue darken-4 right" id="boton" type="submit" name="action">Publicar
+						    <i class="material-icons right"></i>
 					</button>
+					<div class="right">
+						<ul id="dropdown2" class="dropdown-content right">
+							<li><a class="d-iblock"" href="#!">Público</a></li>
+							<li><a href="#!">Amigos</a></li>
+							<li><a href="#!">Sólo yo</a></li>
+						</ul>
+						<a class="btn dropdown-button b-gray" href="#!" data-activates="dropdown2"><i class="material-icons small left">assignment_ind</i>Amigos<i class="mdi-navigation-arrow-drop-down right"></i></a>
+					</div>
 		        </div>
 		      </div>
 		    </div>
@@ -43,7 +62,41 @@
 				</div>
 			</div>
 	      </div>
-	      <div class="col s3 card horizontal">Tus Anuncios</div>
+	      <div class="col s3 card horizontal">
+	      	<div class="row">
+	      		<div class="col s12">
+	      			<div>TUS ANUNCIOS</div>
+	      		</div>
+	      		<div class="col s12">
+				    <div class="card horizontal">
+				      <div class="card-image">
+				        <img id="#logoymq" src="img/ymqlogo.jpg">
+				      </div>
+				      <div class="card-stacked">
+				        <div class="card-content d-flex">
+				          <p class="parrafo">Yo me quiero</p>
+				        </div>
+				      </div>
+				    </div>
+				  </div>
+	      		<div class="col s12">
+	      			<div class="left">PÁGINAS SUGERIDAS</div>
+	      			<a class="right" href="#">Ver todas</a>
+	      		</div>
+	      		<div class="col s12">
+	      			<div id="c-image" class="card">
+			            <div class="card-image">
+			              <img  src="img/ymqportada.png">
+			            </div>
+		            <div class="card-content">
+						<p>Somos una plataforma de información, concientización de la violencia contra la mujer y desarrollo personal.</p>
+						<p>El primero paso es amarte. #YoMeQuiero</p>
+		            </div>
+		            <div class="card-action">
+		            	<a href="https://www.facebook.com/yomequiero.la/">Entra a la página</a>
+		            </div>
+		        </div>
+	      	</div>
 	    </div>
 	  </section>
 

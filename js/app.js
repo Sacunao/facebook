@@ -5,12 +5,14 @@
 	var boton = document.getElementById("boton");
 
 	function loadingPage(){
+		boton.disabled = true;
 		boton.addEventListener("click", createPost);
 	}
 
 	texto.addEventListener("keyup", validacion);
 
 	function createPost(e){
+		boton.disabled = true;
 		e.preventDefault(); 
 		var contenedor = document.getElementById("contenedor");
 

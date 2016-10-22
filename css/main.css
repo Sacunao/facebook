@@ -1,3 +1,32 @@
+body{
+	background-color: #E9EBEE;
+}
+
+.d-flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.foto{
+	width: 1.2em;
+	height: auto;
+	margin-top: 1.2em;
+}
+
+.fotodos{
+	width: 1em;
+	height: auto;
+	margin-top: 1em;
+	margin-right: 0.5em;
+}
+
+.icons{
+	margin: 0px 0.3em;
+	color: #17233D;
+}
+
 #foto{
 	margin-top: 0.5em;
 	width: 5em;
@@ -6,4 +35,30 @@
 
 #mensaje{
 	padding: 0.5em;
+}
+
+.b-gray{
+	background-color: #F6F7F9;
+	color: grey;
+	margin-right: 0.8em;
+}
+
+.b-gray:hover{
+	background-color: #F6F7F9;
+}
+.d-iblock{
+	display: inline-block;
+}
+
+.parrafo{
+	display: flex;
+	font-size: 2em;
+}
+
+#card{
+	margin: 0.5em 0px;
+}
+.card.horizontal #c-image .card-image img{
+    max-width: 200%;
+    width: auto;
 }
